@@ -1,0 +1,5 @@
+en:
+  meta:
+    site:
+      name: <%= app_const %>
+      separator: "-"

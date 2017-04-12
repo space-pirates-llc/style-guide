@@ -1,0 +1,4 @@
+--skip-test
+--skip-action-cable
+--skip-turbolinks
+--template=~/src/github.com/space-pirates-llc/style-guide/rails/template.rb
