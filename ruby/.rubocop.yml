@@ -29,6 +29,8 @@ Metrics/BlockLength:
   CountComments: false
   Max: 25
   ExcludedMethods: []
+  Exclude:
+    - Guardfile
 
 Metrics/BlockNesting:
   CountBlocks: false

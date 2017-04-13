@@ -4,7 +4,7 @@ module ApplicationHelper
       title: t("#{controller_path.tr('/', '.')}.#{action_name}.title", default: nil),
       site: t('meta.site.name'),
       separator: t('meta.site.separator', default: '-'),
-      canonical: canonical_url,
+      canonical: canonical_href,
       reverse: true
     }
   end
