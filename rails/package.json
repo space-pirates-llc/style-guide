@@ -1,5 +1,5 @@
 {
-  "name": "<%= app_const.to_s.underscore.sub(%r{/application$}, '') %>",
+  "name": "<%= app_name.to_s.underscore %>",
   "version": "0.0.1",
   "main": "index.js",
   "author": "<%= `git config user.name`.strip %> <<%= `git config user.email`.strip %>>",

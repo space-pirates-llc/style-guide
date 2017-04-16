@@ -17,16 +17,12 @@ module.exports = {
     module: {
       loaders: [
         { test: /\.json$/, loader: 'json' },
-      ],
-      rules: [
         {
           test: /\.js$/,
           exclude: /node_modules/,
-          use: {
-            loader: 'babel-loader',
-            options: {
-              presets: ['env']
-            }
+          loader: 'babel-loader',
+          query: {
+            presets: ['env']
           }
         }
       ]

@@ -114,7 +114,7 @@ after_bundle do
   # Setup locale kit
   run 'rm -rf config/locales'
   generate 'locale_kit:install'
-  copy_file 'app/locales/meta.yml'
+  template 'app/locales/meta.yml'
 
   # Setup rspec
   copy_file '.rspec'
